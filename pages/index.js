@@ -68,7 +68,7 @@ export default function Home() {
 
             </div>
             <div className="mx-auto bg-gradient-to-b from-teal-500 transition ease-in-out delay-150 hover:-translate-y-2 hover:scale-110 duration-700 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-              <Image src={hello} layout="" objectFit="cover" />
+              <Image src={hello} layout="" objectFit="cover" alt="" />
             </div>
           </div>
         </section>
@@ -82,7 +82,7 @@ export default function Home() {
           </div>
           <div className="lg:flex gap-10">
             <div className="text-center  p-10 rounded-xl my-10 transition ease-in-out delay-150 hover:-translate-y-2 hover:scale-80 duration-300 hover:bg-slate-200 dark:hover:bg-lime-200 dark:bg-white flex-1" style={{boxShadow:"2px 2px 4px gray"}}>
-              <Image src={design} width={100} height={100} />
+              <Image src={design} width={100} height={100} alt="" />
               <h3 className="text-2xl font-bold pt-8 pb-2  ">
                 UI/UX
               </h3>
@@ -98,12 +98,12 @@ export default function Home() {
   
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 transition ease-in-out delay-150 hover:-translate-y-2 hover:scale-80 duration-300 hover:bg-slate-200 dark:hover:bg-lime-200 dark:bg-white flex-1"style={{boxShadow:"2px 2px 4px gray"}}>
-              <Image src={code} width={100} height={100} />
+              <Image src={code} width={100} height={100} alt="" />
               <h3 className="text-2xl font-bold pt-8 pb-2 ">
                 Coding Platforms
               </h3>
               <p className="py-2">
-                Do you have an idea for your next great website? Let's make it a
+                Do you have an idea for your next great website? Lets make it a
                 reality.
               </p>
               <h4 className="py-4 font-bold text-teal-600">Editors That i use :</h4>
@@ -113,7 +113,7 @@ export default function Home() {
               <p className="text-gray-800 font-semibold py-1">Sublime Text</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 transition ease-in-out delay-150 hover:-translate-y-2 hover:scale-80 duration-300 hover:bg-slate-200 dark:hover:bg-lime-200 dark:bg-white flex-1"style={{boxShadow:"2px 2px 4px gray"}}>
-              <Image src={consulting} width={100} height={100} />
+              <Image src={consulting} width={100} height={100} alt="" />
               <h3 className="text-2xl font-bold pt-8 pb-2 ">Services</h3>
               <p className="py-2">
                 Are you interested for your current project? I am 
@@ -145,6 +145,7 @@ export default function Home() {
                 height={"50%"}
                 layout="responsive"
                 src={screen}
+                alt=""
               /></a>
             </div>
             <div className="basis-1/3 flex-1">
@@ -154,6 +155,7 @@ export default function Home() {
                 height={"50%"}
                 layout="responsive"
                 src={you}
+                alt=""
               /></a>
             </div>
             <div className="basis-1/3 flex-1">
@@ -163,6 +165,7 @@ export default function Home() {
                 height={"50%"}
                 layout="responsive"
                 src={homes}
+                alt=""
               /></a>
             </div>
             <div className="basis-1/3 flex-1">
@@ -172,6 +175,7 @@ export default function Home() {
                 height={"50%"}
                 layout="responsive"
                 src={course}
+                alt=""
               /></a>
             </div>
             <div className="basis-1/3 flex-1">
@@ -181,6 +185,7 @@ export default function Home() {
                 height={"50%"}
                 layout="responsive"
                 src={tum}
+                alt=""
               /></a> 
             </div>
             <div className="basis-1/3 flex-1">
@@ -190,6 +195,7 @@ export default function Home() {
                 height={"50%"}
                 layout="responsive"
                 src={search}
+                alt=""
               /></a>
             </div>
           </div>
